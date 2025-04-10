@@ -5,8 +5,8 @@ public class VehicleInfo {
     public static void main(String[] args) {
 
         // declaring variables with appropriate numbers
-        int vin = 1234567; // VIN number in the range 1000000 - 9999999 (int)
-        String makeModel = "Ford Explorer"; // vehicle make/model (String)
+        String vin = "1234567"; // VIN number range 1000000 - 9999999 (int)
+        String makeModel = "Ford Explorer"; // vehicle make and model (String)
         String color = "Red"; // vehicle color (String)
         boolean towingPackage = true; // if vehicle has a towing package (boolean)
         int mileage = 150000; // odometer reading (int)
@@ -27,5 +27,16 @@ public class VehicleInfo {
         System.out.println("Phone Number: " + phoneNumber);
         System.out.println("SSN: " + ssn);
         System.out.println("Zip Code: " + zipCode);
+
+        // What is 7 + 3? → 10
+        // What is 10 - 4? → 6
+        // What is 2 * 5? → 10
+        // What is 20 / 4? → 5
+        // What is 10 % 3? → 1
+        System.out.println("7 + 3 = " + (7 + 3));
+        System.out.println("10 - 4 = " + (10 - 4));
+        System.out.println("2 * 5 = " + (2 * 5));
+        System.out.println("20 / 4 = " + (20 / 4));
+        System.out.println("10 % 3 = " + (10 % 3));
     }
 }
